@@ -70,7 +70,6 @@
   right: 80px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .header__hours {
@@ -115,4 +114,26 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 100px;
+  padding-left: 80px;
+}
+
+.recipes__title {
+  max-width: 580px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  padding-bottom: 215px;
+}
+
+.recipes__iframe {
+}
+
+.recipes__subtitle {
+  max-width: 438px;
 }
