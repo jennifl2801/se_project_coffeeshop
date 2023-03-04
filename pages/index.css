@@ -153,3 +153,11 @@
   line-height: 30px;
   color: #ffffff;
 }
+
+.recipes__video {
+}
+
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
+}
