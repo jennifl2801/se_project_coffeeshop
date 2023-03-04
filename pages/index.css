@@ -73,7 +73,7 @@
 }
 
 .header__hours {
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 20px;
   color: #838383;
 }
@@ -83,7 +83,7 @@
 }
 
 .header__address {
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 20px;
   color: #838383;
 }
@@ -122,6 +122,11 @@
   max-width: 580px;
   margin-top: 0;
   margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
 }
 
 .recipes__videos {
@@ -131,9 +136,20 @@
   padding-bottom: 215px;
 }
 
-.recipes__iframe {
-}
-
 .recipes__subtitle {
   max-width: 438px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.recipes__video-caption {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
 }
