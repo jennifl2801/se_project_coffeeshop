@@ -154,10 +154,122 @@
   color: #ffffff;
 }
 
-.recipes__video {
-}
-
 .recipes__iframe {
   width: 480px;
   height: 273px;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(/images/background_reservation.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.reservation__title {
+  padding-bottom: 80px;
+  margin: 0px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.reservation__form {
+  margin-top: 100px;
+  max-width: 385px;
+}
+
+.form__fieldset {
+  border: none;
+  margin: 0;
+}
+
+.form__input {
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form__label {
+  display: block;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.form__input_text {
+  max-width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__input_number {
+  max-width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+}
+
+.form__input_datetime-local {
+  max-width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+}
+
+.form__input_email {
+  max-width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+}
+
+.form__button {
+  max-width: 385px;
+  max-height: 60px;
+  border-radius: 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  height: 60px;
+  background-color: #2f80ed;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.form__button:hover {
+  transition: 1s;
+  opacity: 0.7;
+}
+
+.form__input_checkbox {
+  border-radius: 2px;
+  margin-right: 12px;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.form__label_terms-of-use {
+  display: inline;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
