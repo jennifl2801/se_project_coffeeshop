@@ -184,6 +184,7 @@
 
 .reservation__form {
   margin-top: 100px;
+  margin-bottom: 120px;
   max-width: 385px;
 }
 
@@ -194,7 +195,6 @@
 
 .form__input {
   border-radius: 4px;
-  box-sizing: border-box;
 }
 
 .form__label {
