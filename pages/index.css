@@ -185,12 +185,12 @@
 .reservation__form {
   margin-top: 100px;
   margin-bottom: 120px;
-  max-width: 385px;
 }
 
 .form__fieldset {
   border: none;
   margin: 0;
+  max-width: 385px;
 }
 
 .form__input {
