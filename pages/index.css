@@ -176,13 +176,13 @@
   line-height: 52px;
 }
 
+/*remove if not needed
 .form__container {
-}
+}*/
 
 .reservation__form {
-  margin-top: 100px;
-  margin-bottom: 120px;
-  max-width: 385px;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .form__fieldset {
@@ -190,9 +190,7 @@
   flex-direction: column;
   max-width: 385px;
   border: none;
-  margin: 0;
-  max-width: 385px;
-  align-items: center;
+  margin: auto;
 }
 
 .form__input {
