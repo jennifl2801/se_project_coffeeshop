@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__links {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 80px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-weight: 500;
+  line-height: 20px;
+}
