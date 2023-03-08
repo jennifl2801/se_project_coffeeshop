@@ -5,7 +5,6 @@
 }
 
 .nav__links {
-  position: relative;
   display: flex;
   flex-direction: row;
   column-gap: 20px;
@@ -20,6 +19,7 @@
 
 .nav__link {
   text-decoration: none;
+  color: #000000;
 }
 
 .nav__link:hover {
