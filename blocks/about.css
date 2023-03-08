@@ -22,13 +22,15 @@
   max-width: 660px;
   padding-top: 119px;
   padding-bottom: 173px;
+  padding-left: 700px;
+  padding-right: 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   width: 100%;
   color: #ffffff;
   z-index: 1;
-  margin: auto;
+  margin: 0px;
 }
 
 .about__paragraph {
