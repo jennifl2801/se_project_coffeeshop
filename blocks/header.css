@@ -11,14 +11,6 @@
   box-sizing: border-box;
 }
 
-.logo {
-  position: absolute;
-  width: 125px;
-  height: 142px;
-  left: 30px;
-  top: 30px;
-}
-
 .header__span-accent {
   color: #2f80ed;
   font-family: "Noto Serif", "Times New Roman", serif;
