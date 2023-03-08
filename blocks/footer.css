@@ -1,0 +1,38 @@
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+}
+
+.footer__list-item {
+  list-style: none;
+}
+
+.footer__content {
+  display: flex;
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-right: 100px;
+  padding-bottom: 108px;
+  margin-right: auto;
+}
+
+.footer__list {
+  margin: auto;
+  color: #ffffff;
+}
+
+.footer__logo {
+  width: 116px;
+  height: 21px;
+}
+
+.footer__social-icon:hover {
+  transition: 1s;
+  color: #c1c1c1;
+}
+
+.footer__copyright {
+  color: #ffffff;
+  padding-left: 80px;
+  padding-bottom: 60px;
+  margin: 0px;
+}
