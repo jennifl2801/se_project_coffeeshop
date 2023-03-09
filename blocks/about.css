@@ -8,9 +8,10 @@
 }
 
 .about__title {
-  position: relative;
-  top: 100px;
-  left: 80px;
+  position: static;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-bottom: 0px;
   max-width: 251px;
   color: #ffffff;
   z-index: 1;

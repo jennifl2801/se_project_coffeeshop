@@ -3,7 +3,7 @@
   min-height: 720px;
   max-height: 800px;
   background-color: #ffffff;
-  background-image: url("/images/background_header.svg");
+  background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -45,6 +45,7 @@
   height: 568px;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -55,6 +56,7 @@
   right: 80px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .header__hours {
