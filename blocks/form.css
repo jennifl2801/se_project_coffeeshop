@@ -16,26 +16,16 @@
   margin-bottom: 32px;
   font-size: 20px;
   line-height: 30px;
+  max-width: 100%;
 }
 
 .form__label {
   display: block;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 8px;
-}
-
-.form__input_datetime-local {
-  max-width: 100%;
-  height: 60px;
-  margin-bottom: 32px;
-}
-
-.form__input_email {
-  max-width: 100%;
-  height: 60px;
-  margin-bottom: 32px;
+  color: #000000;
 }
 
 .form__button {
@@ -61,16 +51,14 @@
 .form__input_checkbox {
   border-radius: 2px;
   margin-right: 12px;
+  margin-bottom: 0px;
   height: 20px;
   width: 20px;
   vertical-align: center;
 }
 
 .form__label_terms-of-use {
-  display: inline;
-  font-size: 20px;
-  line-height: 30px;
-  color: #000000;
+  display: flex;
+  align-items: center;
   margin: auto;
-  vertical-align: center;
 }
